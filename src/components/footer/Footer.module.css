@@ -1,0 +1,61 @@
+.row_footer li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.row_footer ul {
+  padding: 0px;
+}
+.row_footer svg {
+  font-size: 34px;
+  color: white;
+  background-color: rgb(71, 178, 228);
+  background-color: BootstrapMadeArshaFREE DOWNLOAD #47b2e4 HistoryGenerate
+    PaletteClose and Exit Color Pick Mode [ esc] rgb(71, 178, 228);
+  padding: 8px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.row_footer a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 414px) {
+  .row_footer {
+    row-gap: 25px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .row_footer {
+    row-gap: 25px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .row_footer ul {
+    padding: 0px;
+    font-size: 12px;
+  }
+  .row_footer svg {
+    font-size: 15px;
+  }
+}
+
+
+@media only screen and (max-width: 820px) {
+    .row_footer ul {
+      padding: 0px;
+      font-size: 12px;
+    }
+    .row_footer svg {
+      font-size: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .row_footer ul {
+      padding: 0px;
+      font-size: 12px;
+    }
+    .row_footer svg {
+      font-size: 15px;
+    }
+  }
