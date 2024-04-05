@@ -51,6 +51,16 @@ function pricings({list1,list2,list3,list4,list5 , className ,list1Line1,list1Li
       margin: auto;
       margin-bottom: 50px;
   }
+
+
+  @media only screen and (max-width:650px){
+
+  .pricing-cards{
+    margin: auto;
+    width: 63%;
+  }
+}
+
     `}
       </style>
       <div className="pricing-cards">

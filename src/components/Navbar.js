@@ -3,6 +3,16 @@ import "./Navbar.css"
 function Navbar() {
   return (
     <div>
+    <style>{`
+    // @media only screen and (max-width:650px) {
+    //   .navbar.nav-item{
+    //   margin: auto;
+    // border: 1px solid white;
+    // width: 100%;
+    // }
+    // }
+    
+    `}</style>
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <a className="navbar-brand" href="#home">

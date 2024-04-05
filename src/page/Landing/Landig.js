@@ -428,8 +428,22 @@ font-size:12px;
   //     }
 
 
-
-
+  @media only screen and (max-width:650px){
+  .Head_and_form .Head_and_form_btn{
+    width: 51%;
+    position: absolute;
+    top: 95px;
+    right: 0px;
+      
+  }
+}
+// @media only screen and (max-width:650px){
+// eight_row .nav-item{
+//   margin: auto;
+//   border: 1px solid white;
+//   margin:none;
+// }
+}
       `}
       </style>
       <Navbar />
@@ -462,7 +476,7 @@ font-size:12px;
               <div className="col-md-6">
                 <div className={style.image}>
                   <img
-                    src="/assets/images/image_one_sec_one-removebg-preview.png"
+                    src="/images/image_one_sec_one-removebg-preview.png"
                     alt="Italian Trulli"
                   />
                 </div>
@@ -475,24 +489,24 @@ font-size:12px;
             <div className={`row ${style.row_two}`}>
               <div className="col-md-2">
                 <img
-                  src="/assets/images/client-1 sec two one img.png"
+                  src="/images/client-1 sec two one img.png"
                   alt="Italian Trulli"
                 />
               </div>
               <div className="col-md-2">
-                <img src="/assets/images/client-2.png" alt="Italian Trulli" />
+                <img src="/images/client-2.png" alt="Italian Trulli" />
               </div>
               <div className="col-md-2">
-                <img src="/assets/images/client-3.png" alt="Italian Trulli" />
+                <img src="/images/client-3.png" alt="Italian Trulli" />
               </div>
               <div className="col-md-2">
-                <img src="/assets/images/client-4.png" alt="Italian Trulli" />
+                <img src="/images/client-4.png" alt="Italian Trulli" />
               </div>
               <div className="col-md-2">
-                <img src="/assets/images/client-5.png" alt="Italian Trulli" />
+                <img src="/images/client-5.png" alt="Italian Trulli" />
               </div>
               <div className="col-md-2">
-                <img src="/assets/images/client-6.png" alt="Italian Trulli" />
+                <img src="/images/client-6.png" alt="Italian Trulli" />
               </div>
             </div>
           </div>
@@ -656,7 +670,7 @@ font-size:12px;
               </div>
               <div className="col-md-6">
                 <img
-                  src="/assets/images/section-four-img-removebg-preview (1).png"
+                  src="/images/section-four-img-removebg-preview (1).png"
                   alt="Italian Trulli"
                 />
               </div>
@@ -668,7 +682,7 @@ font-size:12px;
             <div className={`row ${style.row_five}`}>
               <div className="col-md-6">
                 <img
-                  src="/assets/images/section-five img.png"
+                  src="/images/section-five img.png"
                   alt="Italian Trulli"
                 />
               </div>
@@ -851,6 +865,7 @@ font-size:12px;
         </section>
         <section className={style.section_eight} id="Portfolio">
           <div className="container">
+            <div className="eight_row">
             <div className={`row ${style.row_eight}`}>
               <div className={style.Head}>
                 <h1>PORTFOLIO</h1>
@@ -950,7 +965,7 @@ font-size:12px;
 
                         <div className={`${style.thrd_img} parent`}>
                           <img
-                            src="/assets/images/portfolio-1 img one for tab one.jpg"
+                            src="/images/portfolio-1 img one for tab one.jpg"
                             alt="Italian Trulli"
                           />
                           <div className={`${style.hover_div} child`}>
@@ -968,7 +983,7 @@ font-size:12px;
                       <div className="col-md-4">
                         <div className={style.thrd_img}>
                           <img
-                            src="/assets/images/portfolio-2 img 2 for tab one.jpg"
+                            src="/images/portfolio-2 img 2 for tab one.jpg"
                             alt="Italian Trulli"
                           />
                           <div className={`${style.hover_div} child`}>
@@ -986,7 +1001,7 @@ font-size:12px;
                       <div className="col-md-4">
                         <div className={style.thrd_img}>
                           <img
-                            src="/assets/images/portfolio-3 img 3 tab one.jpg"
+                            src="/images/portfolio-3 img 3 tab one.jpg"
                             alt="Italian Trulli"
                           />
                           <div className={`${style.hover_div} child`}>
@@ -1005,7 +1020,7 @@ font-size:12px;
                         <div className="col-md-4">
                           <div className={style.thrd_img}>
                             <img
-                              src="/assets/images/portfolio-6 img 4 tab one.jpg"
+                              src="/images/portfolio-6 img 4 tab one.jpg"
                               alt="Italian Trulli"
                             />
                             <div className={`${style.hover_div} child`}>
@@ -1023,7 +1038,7 @@ font-size:12px;
                         <div className="col-md-4">
                           <div className={style.thrd_img}>
                             <img
-                              src="/assets/images/portfolio-5 img 5 tab one.jpg"
+                              src="/images/portfolio-5 img 5 tab one.jpg"
                               alt="Italian Trulli"
                             />
                             <div className={`${style.hover_div} child`}>
@@ -1041,7 +1056,7 @@ font-size:12px;
                         <div className="col-md-4">
                           <div className={style.thrd_img}>
                             <img
-                              src="/assets/images/portfolio-7img 8 tab one.jpg"
+                              src="/images/portfolio-7img 8 tab one.jpg"
                               alt="Italian Trulli"
                             />
                             <div className={`${style.hover_div} child`}>
@@ -1061,7 +1076,7 @@ font-size:12px;
                           <div className="col-md-4">
                             <div className={style.thrd_img}>
                               <img
-                                src="/assets/images/portfolio-9 img 7 tab one.jpg"
+                                src="/images/portfolio-9 img 7 tab one.jpg"
                                 alt="Italian Trulli"
                               />
                               <div className={`${style.hover_div} child`}>
@@ -1079,7 +1094,7 @@ font-size:12px;
                           <div className="col-md-4">
                             <div className={style.thrd_img}>
                               <img
-                                src="/assets/images/portfolio-8 img 9 taab one.jpg"
+                                src="/images/portfolio-8 img 9 taab one.jpg"
                                 alt="Italian Trulli"
                               />
                               <div className={`${style.hover_div} child`}>
@@ -1109,7 +1124,7 @@ font-size:12px;
                       <div className="col-md-4">
                         <div className={style.thrd_img}>
                           <img
-                            src="/assets/images/portfolio-1 img one for tab one.jpg"
+                            src="/images/portfolio-1 img one for tab one.jpg"
                             alt="Italian Trulli"
                           />
                           <div className={`${style.hover_div} child`}>
@@ -1127,7 +1142,7 @@ font-size:12px;
                       <div className="col-md-4">
                         <div className={style.thrd_img}>
                           <img
-                            src="/assets/images/portfolio-3 img 3 tab one.jpg"
+                            src="/images/portfolio-3 img 3 tab one.jpg"
                             alt="Italian Trulli"
                           />
                           <div className={`${style.hover_div} child`}>
@@ -1145,7 +1160,7 @@ font-size:12px;
                       <div className="col-md-4">
                         <div className={style.thrd_img}>
                           <img
-                            src="/assets/images/portfolio-6 img 4 tab one.jpg"
+                            src="/images/portfolio-6 img 4 tab one.jpg"
                             alt="Italian Trulli"
                           />
                           <div className={`${style.hover_div} child`}>
@@ -1173,7 +1188,7 @@ font-size:12px;
                       <div className="col-md-4">
                         <div className={style.thrd_img}>
                           <img
-                            src="/assets/images/portfolio-4 img for tab 3.jpg"
+                            src="/images/portfolio-4 img for tab 3.jpg"
                             alt="Italian Trulli"
                           />
                           <div className={`${style.hover_div} child`}>
@@ -1191,7 +1206,7 @@ font-size:12px;
                       <div className="col-md-4">
                         <div className={style.thrd_img}>
                           <img
-                            src="/assets/images/portfolio-7img 8 tab one.jpg"
+                            src="/images/portfolio-7img 8 tab one.jpg"
                             alt="Italian Trulli"
                           />
                           <div className={`${style.hover_div} child`}>
@@ -1209,7 +1224,7 @@ font-size:12px;
                       <div className="col-md-4">
                         <div className={style.thrd_img}>
                           <img
-                            src="/assets/images/portfolio-8 img 9 taab one.jpg"
+                            src="/images/portfolio-8 img 9 taab one.jpg"
                             alt="Italian Trulli"
                           />
                           <div className={`${style.hover_div} child`}>
@@ -1237,7 +1252,7 @@ font-size:12px;
                       <div className="col-md-4">
                         <div className={style.thrd_img}>
                           <img
-                            src="/assets/images/portfolio-2 img 2 for tab one.jpg"
+                            src="/images/portfolio-2 img 2 for tab one.jpg"
                             alt="Italian Trulli"
                           />
                           <div className={`${style.hover_div} child`}>
@@ -1255,7 +1270,7 @@ font-size:12px;
                       <div className="col-md-4">
                         <div className={style.thrd_img}>
                           <img
-                            src="/assets/images/portfolio-5 img 6 tab one.jpg"
+                            src="/images/portfolio-5 img 6 tab one.jpg"
                             alt="Italian Trulli"
                           />
                           <div className={`${style.hover_div} child`}>
@@ -1273,7 +1288,7 @@ font-size:12px;
                       <div className="col-md-4">
                         <div className={style.thrd_img}>
                           <img
-                            src="/assets/images/portfolio-9 img 7 tab one.jpg"
+                            src="/images/portfolio-9 img 7 tab one.jpg"
                             alt="Italian Trulli"
                           />
                           <div className={`${style.hover_div} child`}>
@@ -1292,6 +1307,7 @@ font-size:12px;
                   </div>
                 </div>
               </>
+            </div>
             </div>
           </div>
         </section>
@@ -1336,7 +1352,7 @@ font-size:12px;
                 </div> */}
                 <Teamcards
                   image={
-                    "/assets/images/team-1 section nine card one image.jpg"
+                    "/images/team-1 section nine card one image.jpg"
                   }
                   tittle={"Walter White"}
                   para={
@@ -1371,7 +1387,7 @@ font-size:12px;
                   </div>
                 </div> */}
                 <Teamcards
-                  image={"/assets/images/team-2 section nine card image 2.jpg"}
+                  image={"/images/team-2 section nine card image 2.jpg"}
                   tittle={"Sarah Jhonson"}
                   para={
                     "Quisquam facilis cum velit laborum corrupti fuga rerum quia"
@@ -1406,7 +1422,7 @@ font-size:12px;
                   </div>
                 </div> */}
                 <Teamcards
-                  image={"/assets/images/team-3 section nine image 3.jpg"}
+                  image={"/images/team-3 section nine image 3.jpg"}
                   tittle={"William Anderson"}
                   para={
                     "Dolorum tempora officiis odit laborum officiis et et accusamus"
@@ -1439,7 +1455,7 @@ font-size:12px;
                   </div>
                 </div> */}
                 <Teamcards
-                  image={"/assets/images/team-4 section nine image 4.jpg"}
+                  image={"/images/team-4 section nine image 4.jpg"}
                   tittle={"Amanda Jepson"}
                   para={
                     "Aut maiores voluptates amet et quis praesentium qui senda para"

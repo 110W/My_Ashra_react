@@ -222,7 +222,7 @@ color: (55,81,126) !importan;
 }
 .section_seven {
   background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
-    url(../../../public/assets/images/cta-bg.jpg) fixed center;
+    url(../../../public/images/cta-bg.jpg) fixed center;
 }
 .section_seven {
   padding-top: 100px;
